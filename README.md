@@ -29,6 +29,7 @@ The server and client currently listen on port 5555.
 
 Start the server (aggregator):
 
+    $ cd log-agg-py
     $ python3 server.py
 
 Start some clients for testing (numbers are arbitrary ID#):
