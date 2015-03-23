@@ -28,9 +28,11 @@ The server and client currently listen on port 5555.
 (hardcoded on client, default with CLI option for server)
 
 Start the server (aggregator):
+
     $ python3 server.py
 
 Start some clients for testing (numbers are arbitrary ID#):
+
     $ python3 client.py 12345 & python3 client.py 54321 & python3 client.py 23456
 
 Stdout should show messages that the clients are sending logs, and that the server is receiving logs.
